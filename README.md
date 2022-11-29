@@ -1,1 +1,1 @@
-# poatek_internship_challenge
+# Poatek Internship Challenge
