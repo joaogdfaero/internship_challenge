@@ -13,12 +13,12 @@ class Person:
         
         for i in range(0,len(classification)): # iterate to find in each category BMI falls into
             if classification[i][0] < self.BMI() <  classification[i+1][0]:
-                return classification[i+1]
+                return classification[i+1][1:3]
             elif self.BMI() < classification[0][0]: # thinness exception case 
-                return classification[0]
+                return classification[0][1:3]
                 break
             elif self.BMI() > classification[len(classification)-1][0]: # obesity III exception case
-                return classification[len(classification)-1]
+                return classification[len(classification)-1][1:3]
                 break
 
 
