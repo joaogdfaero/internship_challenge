@@ -35,3 +35,11 @@ a. A method to calculate the BMI and return the value.
 b. A method that receives the BMI and returns the Classification and Obesity.
 
 Print the value of BMI, Classification, and Obesity degree (if applicable).
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/103076610/204515426-3bda72ce-ba71-4cd8-b8f1-ba85231c9cb5.png" alt="Sublime's custom image"/>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/103076610/204515464-8b066853-cbd5-4d6a-bf80-137f905222d7.png" alt="Sublime's custom image"/>
+</p>
+
+[**Solution**]()
