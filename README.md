@@ -6,9 +6,8 @@
 
 Below are the technologies used in this challenge:
 
-* Ruby 3.1.2
-* Rails 6.1.6.1
-* Sqlite3
+* 
+* 
 
 ---
 
