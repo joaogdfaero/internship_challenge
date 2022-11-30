@@ -7,8 +7,9 @@
 
 Below are the technologies used in this challenge:
 
-* 
-* 
+* Python: 3.10.6
+* VScode: 1.73.1
+* Linux Mint: 5.15.0-53
 
 ---
 
