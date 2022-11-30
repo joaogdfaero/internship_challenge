@@ -15,7 +15,14 @@ class Person:
         if self.heigth < 0 or self.weight < 0:
             raise ValueError("Heigth or Weight can't be negative!")
 
-        for i in range(0,len(classification)): # iterate to find in each category BMI falls into
+        # raise error for non-numeric values
+        if type(self.heigth) not in [int,float]:
+            raise TypeError("Heigth needs to be a number!")
+        if type(self.weight) not in [int,float]:
+            raise TypeError("Weight needs to be a number!")
+
+        # iterate to find in each category BMI falls into
+        for i in range(0,len(classification)): 
             if classification[i][0] < self.BMI() <  classification[i+1][0]:
                 return classification[i+1][1:3]
             elif self.BMI() < classification[0][0]: # thinness exception case 

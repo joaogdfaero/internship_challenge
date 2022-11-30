@@ -10,6 +10,11 @@ class TestClassif_Obesity(unittest.TestCase):
         self.assertEqual(Person(1.75,100).classif_obesity(),['Obesity', "I"])
         self.assertEqual(Person(1.75,120).classif_obesity(),['Obesity', "II"])
 
-    def test_values(self):
+    def test_values(self): 
         # makes sure value errors are raised when necessary
         self.assertRaises(ValueError,Person(-1.75,-200).classif_obesity)
+    
+    def test_types(self):
+        # makes sure type errors are raised when necessary
+        self.assertRaises(TypeError,Person("-1.75","-200").classif_obesity)
+        self.assertRaises(TypeError,Person("-1.75",-200).classif_obesity)
