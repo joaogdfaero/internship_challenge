@@ -18,12 +18,12 @@ Technical test questions and problems / implemented solutions:
 **1** - Given a list with Employee Name, Salary, and length of service. Print the name of all employees with more than 3 years in the company with a salary below the average.
 
 
-[**Solution**]()
+[**Solution**](https://github.com/joaogdfaero/poatek_internship_challenge/blob/main/question1.py)
 
 
 **2** - Given the X variable with a value of 10 and the Y variable with a value of 20, using only variable assignment, invert the values of the X and Y variables and print the result.
 
-[**Solution**]()
+[**Solution**](https://github.com/joaogdfaero/poatek_internship_challenge/blob/main/question2.py)
 
 **3** - Create the following class and methods:
 1. The class should have at least two properties (with respective setters/getters):
