@@ -36,4 +36,5 @@ b. A method that receives the BMI and returns the Classification and Obesity.
 Print the value of BMI, Classification, and Obesity degree (if applicable).
 
 [**Solution**](https://github.com/joaogdfaero/poatek_internship_challenge/blob/main/question3.py)
+
 [**Solution test**](https://github.com/joaogdfaero/poatek_internship_challenge/blob/main/test_question3.py)
