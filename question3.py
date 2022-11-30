@@ -11,6 +11,10 @@ class Person:
         # List with all classification
         classification = [[18.5, "Thinness", None], [24.9, "Normal", None], [29.9, "Overweight", None], [34.9, "Obesity","I"], [39.9, "Obesity", "II"], [40.0, "Obesity", "III"]]
         
+        # raise error for negative values
+        if self.heigth < 0 or self.weight < 0:
+            raise ValueError("Heigth or Weight can't be negative!")
+
         for i in range(0,len(classification)): # iterate to find in each category BMI falls into
             if classification[i][0] < self.BMI() <  classification[i+1][0]:
                 return classification[i+1][1:3]
