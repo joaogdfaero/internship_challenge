@@ -1,6 +1,5 @@
-# Poatek Internship Challenge
+Internship Challenge
 ## Code Challenge:
-- Company: Poatek - IT Consulting
 - Author: João Gabriel Dal Forno (https://github.com/joaogdfaero)
 
 ---
