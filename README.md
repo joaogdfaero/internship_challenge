@@ -1,6 +1,6 @@
 Internship Challenge
 ## Code Challenge:
-- Author: João Gabriel Dal Forno (https://github.com/joaogdfa)
+- Author: João Gabriel Dal Forno (https://github.com/joaogdfaer)
 
 ---
 
